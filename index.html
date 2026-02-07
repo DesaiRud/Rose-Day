@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Happy Rose Day</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="scene">
+      <header class="hero">
+        <h1 id="greeting">Happy Rose Day Kashiiii 🌹</h1>
+        <p class="sub">A little surprise, from me to you 🌹</p>
+        <div class="actions">
+          <button id="revealBtn" class="btn">Open your surprise</button>
+          
+        </div>
+      </header>
+
+      <main>
+        <section class="card">
+          <div class="rose" aria-hidden="true"></div>
+          <p class="note">Click "Open your surprise" to see the message.</p>
+        </section>
+      </main>
+
+      <div id="modal" class="modal hidden" role="dialog" aria-hidden="true">
+        <div class="modal-inner">
+          <button id="close" class="close" aria-label="Close">✕</button>
+          <h2 id="modalTitle">For You 🌹</h2>
+          <p id="modalMessage">Happy Rose Day 🌹
+Just like a rose makes everything more beautiful, you make my life happier and brighter every day. Thank you for being with me, for understanding me, and for caring for me. I’m really lucky to have you in my life. ❤️- Rudra
+</p>
+          <div class="modal-actions">
+            <button id="close2" class="btn">Close</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="confetti" aria-hidden="true"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
